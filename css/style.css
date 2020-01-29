@@ -11,22 +11,24 @@ html {
 }
 
 .parallax1 {
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
+    background-color: #323232;
     min-height: 45%;
 }
 
 .parallax2 {
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
+
     min-height: 100%;
 }
 
 .parallax3 {
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     min-height: 40%;
 }
 
 .parallax4 {
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     min-height: 100%;
 }
 
@@ -83,7 +85,7 @@ html {
 section {
     overflow: auto;
     padding: 20px 80px;
-    background-color: #000000;
+    background-color: #323232;
 }
 
 .dark {
