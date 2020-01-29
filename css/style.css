@@ -12,13 +12,11 @@ html {
 
 .parallax1 {
     background-image: url(../img/background.png);
-    background-color: #323232;
-    min-height: 45%;
+    min-height: 65%;
 }
 
 .parallax2 {
     background-image: url(../img/background.png);
-
     min-height: 100%;
 }
 
@@ -88,6 +86,29 @@ section {
     background-color: #323232;
 }
 
+/* This is an uncomplete left coloum class */
+/*  .left-col {} */
+
+.profile-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+
+.left-col-p {
+    text-align: center;
+}
+
+
+.right-col {
+    text-align: center;
+    padding: 10px;
+}
+
 .dark {
     overflow: auto;
     padding: 50px 80px;
@@ -113,4 +134,14 @@ section {
         padding: 0;
         text-align: center;
     }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #000000;
+        border-radius: 50%;
+    }
+
 }
