@@ -6,13 +6,13 @@ html {
     margin: 0;
     font-family: "Ubuntu", sans-serif;
     line-height: 180%;
-    color: #666;
+    color: #000000;
     text-align: center;
 }
 
 .parallax1 {
     background-image: url(../img/background.png);
-    min-height: 65%;
+    min-height: 55%;
 }
 
 .parallax2 {
@@ -50,6 +50,7 @@ html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
 }
 
 .heading-extra {
@@ -83,7 +84,7 @@ html {
 section {
     overflow: auto;
     padding: 20px 80px;
-    background-color: #323232;
+    background-color: #b3b3b3;
 }
 
 /* This is an uncomplete left coloum class */
@@ -95,7 +96,7 @@ section {
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #000000;
+    margin-top: 5%;
     border-radius: 50%;
 }
 
@@ -106,6 +107,7 @@ section {
 
 .right-col {
     text-align: center;
+    margin-top: 5%;
     padding: 10px;
 }
 
@@ -140,8 +142,11 @@ section {
         height: 200px;
         margin-left: auto;
         margin-right: auto;
-        border: 5px solid #000000;
         border-radius: 50%;
+    }
+
+    .parallax1 {
+        min-height: 55%;
     }
 
 }
