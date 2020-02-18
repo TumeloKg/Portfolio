@@ -2,151 +2,199 @@
 
 body,
 html {
-    height: 100%;
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-    line-height: 180%;
-    color: #000000;
-    text-align: center;
+  height: 100%;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 180%;
+  color: #000000;
+  text-align: center;
 }
 
 .parallax1 {
-    background-image: url(../img/background.png);
-    min-height: 55%;
+  background-image: url(../img/background.png);
+  min-height: 50%;
 }
 
 .parallax2 {
-    background-image: url(../img/background.png);
-    min-height: 100%;
+  background-image: url(../img/background.png);
+  min-height: 100%;
 }
 
 .parallax3 {
-    background-image: url(../img/background.png);
-    min-height: 40%;
-}
-
-.parallax4 {
-    background-image: url(../img/background.png);
-    min-height: 100%;
+  background-image: url(../img/background.png);
+  min-height: 20%;
 }
 
 .parallax1,
 .parallax2,
-.parallax3,
-.parallax4 {
-    position: relative;
-    opacity: 0.75;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.parallax3 {
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .heading {
-    position: absolute;
-    color: #000000;
-    font-size: 550%;
-    top: 38%;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: 0 0 10px #000;
+  position: absolute;
+  color: #000000;
+  font-size: 500%;
+  font-family: serif;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .heading-extra {
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    color: #000000;
-    font-size: 200%;
-    text-transform: uppercase;
-    letter-spacing: 0;
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  color: #000000;
+  font-size: 200%;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .heading-sm {
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    color: black;
-    font-size: 250%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: 0 0 10px #000;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  color: black;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+
+.sub-heading {
+  color: red;
 }
 
 .two-col {
-    float: left;
-    width: 42%;
-    padding: 0 4%;
-    text-align: left;
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: left;
+}
+
+.two-col-2 {
+  float: left;
+  width: 35%;
+  padding: 0 4%;
+  text-align: left;
+  margin-top: 7%;
+  margin-left: 5%;
+  background-color: #dddcdc;
+  opacity: 0.9;
 }
 
 section {
-    overflow: auto;
-    padding: 20px 80px;
-    background-color: #b3b3b3;
+  overflow: auto;
+  padding: 20px 80px;
+  background-color: #000000;
 }
 
 /* This is an uncomplete left coloum class */
 /*  .left-col {} */
 
-.profile-img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    border-radius: 50%;
+/*.profile-img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border: 5px solid #000000;
+  border-radius: 50%;
+}*/
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: serif;
+
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: red;
+}
+
+i {
+  padding-right: 5px;
+}
+
+.viewlink {
+  color: red;
+
+}
+
+.left-col {
+  margin-top: 10%;
 }
 
 .left-col-p {
-    text-align: center;
+  padding-left: 10px;
+  text-align: left;
+  color: #ffffff;
 }
 
-
 .right-col {
-    text-align: center;
-    margin-top: 5%;
-    padding: 10px;
+  text-align: center;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.right-col-p {
+  color: #f2f2f2;
 }
 
 .dark {
-    overflow: auto;
-    padding: 50px 80px;
-    background-color: #323232;
-    color: #f2f2f2;
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #777777;
+  color: #f2f2f2;
 }
 
+video {
+  width: 70%;
+}
+
+/* media config */
+
 @media (max-width: 810px) {
-    .heading {
-        font-size: 200%;
-    }
+  .heading {
+    font-size: 200%;
+  }
 
-    .heading-sm {
-        font-size: 150%;
-    }
+  .heading-sm {
+    font-size: 150%;
+  }
 
-    .heading-extra {
-        font-size: 70%;
-    }
+  .heading-extra {
+    font-size: 70%;
+  }
 
-    .two-col {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
+  .two-col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 
-    .profile-img {
-        width: 200px;
-        height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50%;
-    }
+  .two-col-2 {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 0px;
+  }
 
-    .parallax1 {
-        min-height: 55%;
-    }
-
+  .parallax1 {
+    min-height: 55%;
+  }
 }
